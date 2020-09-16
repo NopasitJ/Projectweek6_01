@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-
+using namespace std;
 int main()
 {
 	std::string d;
@@ -17,5 +17,5 @@ int main()
 			pro *= d[i] - '0';
 		}
 	}
-	std::cout << pro << std::endl;
+	cout << pro << endl;
 }
